@@ -1,0 +1,20 @@
+query SWPlanets {
+  allPlanets {
+    planets {
+    	...PlanetDetails
+    }
+  }
+}
+
+fragment PlanetDetails on Planet {
+	id
+  name
+  diameter
+  rotationPeriod
+  orbitalPeriod
+  gravity
+  population
+  climates
+  terrains
+  surfaceWater
+}

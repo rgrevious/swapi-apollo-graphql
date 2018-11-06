@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SWAPI Graphql Demo</string>
+    <string name="title_character_detail">Character Detail</string>
+</resources>

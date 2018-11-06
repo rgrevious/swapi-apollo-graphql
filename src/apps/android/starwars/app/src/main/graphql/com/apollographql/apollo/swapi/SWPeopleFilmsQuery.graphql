@@ -1,0 +1,14 @@
+query SWPeopleFilmsQuery($id: ID) {
+  person(id: $id) {
+    id
+    name
+    filmConnection {
+      films {
+        id
+        title
+        releaseDate
+        director
+      }
+    }
+  }
+}

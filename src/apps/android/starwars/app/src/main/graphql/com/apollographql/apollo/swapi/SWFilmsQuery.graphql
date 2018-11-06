@@ -1,0 +1,16 @@
+query SWFilms {
+  allFilms {
+    films {
+      ...FilmDetails
+    }
+  }
+}
+
+fragment FilmDetails on Film {
+  id
+  title
+  openingCrawl
+  releaseDate
+  director
+  producers
+}

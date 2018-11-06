@@ -1,0 +1,19 @@
+query SWPeople {
+  allPeople {
+    people {
+      ...PersonDetails
+    }
+  }
+}
+
+fragment PersonDetails on Person {
+  id
+  name
+  birthYear
+  eyeColor
+  gender
+  hairColor
+  height
+  mass
+  skinColor
+}
