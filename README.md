@@ -6,7 +6,7 @@ An Android graphql client for the swapi endpoint https://swapi.co
 -List and cache Star Wars characters  
 -Show some details about each character offline  
 -Filter Star Wars characters by first or last name  
--List and cache Star Wars films by a featured character 
+-List and cache Star Wars films by a featured character  
 -Filter Star Wars films by title  
 -Show some details about each film offline  
 
